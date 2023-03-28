@@ -6,8 +6,6 @@ import java.util.stream.Collectors;
 
 /**
  * 帖子性别枚举
- *
- * @author yupi
  */
 public enum InterfaceInfoStatusEnum {
 
@@ -25,8 +23,6 @@ public enum InterfaceInfoStatusEnum {
 
     /**
      * 获取值列表
-     *
-     * @return
      */
     public static List<Integer> getValues() {
         return Arrays.stream(values()).map(item -> item.value).collect(Collectors.toList());
